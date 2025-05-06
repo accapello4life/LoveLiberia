@@ -5,6 +5,7 @@ services:
     build:
       cd server
       npm install
+      npm install
       npm run build
     start: node server.js
     envVars:
