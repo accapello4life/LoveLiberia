@@ -6,7 +6,7 @@ services:
       cd server
       npm install
       npm run build
-    start: node server/server.js
+    start: node server.js
     envVars:
       - key: MONGODB_URI
         value: mongodb+srv://fredisaac2012:ATvCCwKBqBtRKAfE@cluster0.1ukcfz2.mongodb.net/loveliberia?retryWrites=true&w=majority&appName=Cluster0
