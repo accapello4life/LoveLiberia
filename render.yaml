@@ -3,6 +3,7 @@ services:
     name: loveliberia-server
     env: node
     build:
+      cd server
       npm install
       npm run build
     start: npm start
