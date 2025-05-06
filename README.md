@@ -24,5 +24,3 @@ LoveLiberia/
 │   └── server.js      # Server entry
 └── README.md          # Project documentation
 ```
-
-Would you like to continue to the next part?
