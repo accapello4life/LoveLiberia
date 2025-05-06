@@ -61,7 +61,7 @@ export const liberianPatterns = {
     // adinkra: require('../assets/patterns/adinkra.png'),
   },
   icons: {
-    liberiaFlag: require('../assets/icons/liberia-flag.png'),
-    mapLiberia: require('../assets/icons/map-liberia.png'),
+    // liberiaFlag: require('../assets/icons/liberia-flag.png'),
+    // mapLiberia: require('../assets/icons/map-liberia.png'),
   },
 };
