@@ -57,7 +57,7 @@ export const liberianTheme = {
 
 export const liberianPatterns = {
   backgroundPatterns: {
-    kente: require('../assets/patterns/kente.png'),
+    // kente: require('../assets/patterns/kente.png'),
     adinkra: require('../assets/patterns/adinkra.png'),
   },
   icons: {
