@@ -35,7 +35,7 @@ const ProfileScreen = () => {
           type: 'image/jpeg'
         });
 
-        const response = await fetch('http://localhost:3000/api/profile/upload', {
+        const response = await fetch('https://loveliberia-server.onrender.com/api/profile/upload', {
           method: 'POST',
           body: formData,
           headers: {
