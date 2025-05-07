@@ -1,13 +1,16 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const cors = require('cors');
+const dotenv = require('dotenv');
 const jwt = require('jsonwebtoken');
+const cors = require('cors');
 
 const app = express();
 
 // Middleware
-app.use(cors());
 app.use(express.json());
+app.use(cors({
+  origin: 'https://loveliberia.netlify.app'
+}));
 
 // Database connection
 mongoose.connect('mongodb+srv://fredisaac2012:ATvCCwKBqBtRKAfE@cluster0.1ukcfz2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
